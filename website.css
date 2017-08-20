@@ -1,0 +1,208 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	
+	background-color: #ffffff;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: #0077b3;
+}
+
+a{
+	text-decoration: none;
+	color: #0099e6;
+}
+
+img{
+	width: 100%;
+}
+
+#titlebox{
+	height: 20%;
+	margin-top: 0px;
+	
+	color: #ffffff;
+	text-align: center;
+}
+
+#name{
+	height: 60%;
+	
+	background-color: #0077b3; /*Fallback*/
+	background: linear-gradient(to right, #0099e6 0%, #006699 100%);
+	
+	font-family: 'Kalam', sans-serif;
+	font-size: 48px;
+}
+
+#nav{
+	height: 40%;
+	width: 100%;
+	
+	background-color: #0077b3; /*Fallback*/
+	background: linear-gradient(to right, #0099e6 0%, #006699 100%);
+}
+
+#navtable{
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#navtable td{
+	width: 25%;
+}
+
+#navtable span{
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#centerdiv{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-size: 18px;
+}
+
+#about, #projects, #employment, #research{
+	border-bottom: 5px solid #0077b3;
+}
+
+#projectbox, #employerbox{
+	width: 100%;
+	font-size: 16px;
+}
+
+.project, .employer{
+	width: 100%;
+	margin-bottom: 40px;
+	overflow: auto; /*Increase size to contain children*/
+}
+
+.projectimage, .employerimage{
+	width: 35%;
+	padding-top: 18%; /*Maintain aspect ratio*/
+	margin-top: 25px; /*Align with text header*/
+	margin-left: 5px; /*Leave space for shadow*/
+	margin-right: 5px; /*Leave space for shadow*/
+	margin-bottom: 5px; /*Leave space for shadow*/
+	
+	background-position: center;
+	background-size: cover;
+}
+
+.projectimage{
+	float: left;
+}
+
+.employerimage{
+	float: right;
+}
+
+.projecttext{
+	width: 55%;
+	float: right;
+}
+
+.employertext{
+	width: 55%;
+	float: left;
+}
+
+.projecttitle, .employertitle{
+	color: #0077b3;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.langs, .location{
+	font-style: italic;
+	color: #a5b7b2;
+}
+
+#hilbert .projectimage{
+	border: 5px solid #4caf50;
+	background-image:url("Images/hilbert.PNG");
+}
+
+#litepoint .employerimage{
+	border: 5px solid #f7981e;
+	background-image:url("Images/litepoint.PNG");
+}
+
+#lsystem .projectimage{
+	border: 5px solid #ef6c6c;
+	background-image:url("Images/DragonCurve.PNG");
+}
+
+#market .projectimage{
+	border: 5px solid #66cdef;
+	background-image:url("Images/nyse.PNG");
+}
+
+#relativity .projectimage{
+	border: 5px solid #7878c8;
+	background-image:url("Images/relativity.PNG");
+}
+
+#rentmate .projectimage{
+	border: 5px solid #66a3ff;
+	background-image:url("Images/rentmate.PNG");
+}
+
+#ucdavis .employerimage{
+	border: 5px solid #336e9d;
+	background-image:url("Images/ucdavis.PNG");
+}
+
+#contacttable{
+	width: 100%;
+	margin-bottom: 10%;
+	
+	text-align: center;
+}
+
+#contacttable td{
+	width: 33%;
+	position: relative;
+}
+
+.contacttitle{
+	color: #718e86;
+	font-weight: bold;
+}
+
+.contactinfo{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	background-color: #0077b3;
+	opacity: 0;
+}
+
+.contactinfo a{
+	text-decoration: none;
+	font-size: 16px;
+	font-style: italic;
+	color: #ffffff;
+}
+
+
+footer{
+	background-color: #f0f0f0;
+	color: #a5b7b2;
+	font-family: 'Kalam', sans-serif;
+}
