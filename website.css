@@ -150,6 +150,11 @@ img{
 	background-image:url("Images/nyse.png");
 }
 
+#raytracer .projectimage{
+	border: 5px solid #c2665f;
+	background-image:url("Images/raytracer.png");
+}
+
 #relativity .projectimage{
 	border: 5px solid #7878c8;
 	background-image:url("Images/relativity.PNG");

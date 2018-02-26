@@ -69,6 +69,14 @@ var main = function(){
 		$("#market .projectimage").css({"box-shadow":""});
 	});
 	
+	/* Ray tracer */
+	$("#raytracer").hover(function(){
+		$("#raytracer .projectimage").css({"box-shadow":"0px 0px 4px 1px #c2665f"});
+	},
+	function(){
+		$("#raytracer .projectimage").css({"box-shadow":""});
+	});
+	
 	/* Relativity */
 	$("#relativity").hover(function(){
 		$("#relativity .projectimage").css({"box-shadow":"0px 0px 4px 1px #7878c8"});
