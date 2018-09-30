@@ -101,6 +101,14 @@ var main = function(){
 		$("#ucdavis .employerimage").css({"box-shadow":""});
 	});
 	
+	/* Workday */
+	$("#workday").hover(function(){
+		$("#workday .employerimage").css({"box-shadow":"0px 0px 4px 1px #005cb9"});
+	},
+	function(){
+		$("#workday .employerimage").css({"box-shadow":""});
+	});
+	
 	/* Contact links */
 	$("#contacttable td").hover(function(){
 		$(this).find(".contactinfo").animate({opacity: 1},{duration:200, queue: false});
