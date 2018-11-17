@@ -132,56 +132,47 @@ img{
 
 #hilbert .projectimage{
 	border: 5px solid #4caf50;
-	background-image:url("Images/hilbert.PNG");
-	background-image:url("Images/hilbert.png");
+	background-image:url("Images/hilbert.PNG"), url("Images/hilbert.png");
 }
 
 #litepoint .employerimage{
 	border: 5px solid #f7981e;
-	background-image:url("Images/litepoint.PNG");
-	background-image:url("Images/litepoint.png");
+	background-image:url("Images/litepoint.PNG"), url("Images/litepoint.png");
 }
 
 #lsystem .projectimage{
 	border: 5px solid #ef6c6c;
-	background-image:url("Images/DragonCurve.PNG");
-	background-image:url("Images/DragonCurve.png");
+	background-image:url("Images/DragonCurve.PNG"), url("Images/DragonCurve.png");
 }
 
 #market .projectimage{
 	border: 5px solid #66cdef;
-	background-image:url("Images/nyse.PNG");
-	background-image:url("Images/nyse.png");
+	background-image:url("Images/nyse.PNG"), url("Images/nyse.png");
 }
 
 #raytracer .projectimage{
 	border: 5px solid #c2665f;
-	background-image:url("Images/raytracer.PNG");
-	background-image:url("Images/raytracer.png");
+	background-image:url("Images/raytracer.PNG"), url("Images/raytracer.png");
 }
 
 #relativity .projectimage{
 	border: 5px solid #7878c8;
-	background-image:url("Images/relativity.PNG");
-	background-image:url("Images/relativity.png");
+	background-image:url("Images/relativity.PNG"), url("Images/relativity.png");
 }
 
 #rentmate .projectimage{
 	border: 5px solid #66a3ff;
-	background-image:url("Images/rentmate.PNG");
-	background-image:url("Images/rentmate.png");
+	background-image:url("Images/rentmate.PNG"), url("Images/rentmate.png");
 }
 
 #ucdavis .employerimage{
 	border: 5px solid #336e9d;
-	background-image:url("Images/ucdavis.PNG");
-	background-image:url("Images/ucdavis.png");
+	background-image:url("Images/ucdavis.PNG"), url("Images/ucdavis.png");
 }
 
 #workday .employerimage{
 	border: 5px solid #005cb9;
-	background-image:url("Images/workday.PNG");
-	background-image:url("Images/workday.png");
+	background-image:url("Images/workday.PNG"), url("Images/workday.png");
 }
 
 #contacttable{
