@@ -130,6 +130,11 @@ img{
 	color: #a5b7b2;
 }
 
+#fill .projectimage{
+	border: 5px solid #66d9ff;
+	background-image:url("Images/fill.PNG"), url("Images/fill.png");
+}
+
 #hilbert .projectimage{
 	border: 5px solid #4caf50;
 	background-image:url("Images/hilbert.PNG"), url("Images/hilbert.png");
@@ -143,11 +148,6 @@ img{
 #lsystem .projectimage{
 	border: 5px solid #ef6c6c;
 	background-image:url("Images/DragonCurve.PNG"), url("Images/DragonCurve.png");
-}
-
-#market .projectimage{
-	border: 5px solid #66cdef;
-	background-image:url("Images/nyse.PNG"), url("Images/nyse.png");
 }
 
 #raytracer .projectimage{
