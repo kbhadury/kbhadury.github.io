@@ -140,11 +140,6 @@ img{
 	background-image:url("Images/hilbert.PNG"), url("Images/hilbert.png");
 }
 
-#litepoint .employerimage{
-	border: 5px solid #f7981e;
-	background-image:url("Images/litepoint.PNG"), url("Images/litepoint.png");
-}
-
 #lsystem .projectimage{
 	border: 5px solid #ef6c6c;
 	background-image:url("Images/DragonCurve.PNG"), url("Images/DragonCurve.png");
@@ -165,9 +160,24 @@ img{
 	background-image:url("Images/rentmate.PNG"), url("Images/rentmate.png");
 }
 
-#ucdavis .employerimage{
+#aatc .employerimage{
 	border: 5px solid #336e9d;
-	background-image:url("Images/ucdavis.PNG"), url("Images/ucdavis.png");
+	background-image:url("Images/aatc.PNG"), url("Images/aatc.png");
+}
+
+#litepoint .employerimage{
+	border: 5px solid #f7981e;
+	background-image:url("Images/litepoint.PNG"), url("Images/litepoint.png");
+}
+
+#picnicday .employerimage{
+	border: 5px solid #daaa00;
+	background-image:url("Images/picnicday.PNG"), url("Images/picnicday.png");
+}
+
+#ucdor .employerimage{
+	border: 5px solid #336e9d;
+	background-image:url("Images/ucdor.PNG"), url("Images/ucdor.png");
 }
 
 #workday .employerimage{

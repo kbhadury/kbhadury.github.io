@@ -61,22 +61,6 @@ var main = function(){
 		$("#lsystem .projectimage").css({"box-shadow":""});
 	});
 	
-	/* LitePoint */
-	$("#litepoint").hover(function(){
-		$("#litepoint .employerimage").css({"box-shadow":"0px 0px 4px 1px #f7981e"});
-	},
-	function(){
-		$("#litepoint .employerimage").css({"box-shadow":""});
-	});
-	
-	/* Market */
-	$("#market").hover(function(){
-		$("#market .projectimage").css({"box-shadow":"0px 0px 4px 1px #66cdef"});
-	},
-	function(){
-		$("#market .projectimage").css({"box-shadow":""});
-	});
-	
 	/* Ray tracer */
 	$("#raytracer").hover(function(){
 		$("#raytracer .projectimage").css({"box-shadow":"0px 0px 4px 1px #c2665f"});
@@ -100,16 +84,40 @@ var main = function(){
 	function(){
 		$("#rentmate .projectimage").css({"box-shadow":""});
 	});
-	
-	/* UC Davis */
-	$("#ucdavis").hover(function(){
-		$("#ucdavis .employerimage").css({"box-shadow":"0px 0px 4px 1px #336e9d"});
+    
+    /* AATC */
+	$("#aatc").hover(function(){
+		$("#aatc .employerimage").css({"box-shadow":"0px 0px 4px 1px #336e9d"});
 	},
 	function(){
-		$("#ucdavis .employerimage").css({"box-shadow":""});
+		$("#aatc .employerimage").css({"box-shadow":""});
+	});
+    
+    /* LitePoint */
+	$("#litepoint").hover(function(){
+		$("#litepoint .employerimage").css({"box-shadow":"0px 0px 4px 1px #f7981e"});
+	},
+	function(){
+		$("#litepoint .employerimage").css({"box-shadow":""});
 	});
 	
-	/* Workday */
+    /* Picnic Day */
+	$("#picnicday").hover(function(){
+		$("#picnicday .employerimage").css({"box-shadow":"0px 0px 4px 1px #daaa00"});
+	},
+	function(){
+		$("#picnicday .employerimage").css({"box-shadow":""});
+	});
+    
+    /* UCD OR */
+	$("#ucdor").hover(function(){
+		$("#ucdor .employerimage").css({"box-shadow":"0px 0px 4px 1px #336e9d"});
+	},
+	function(){
+		$("#ucdor .employerimage").css({"box-shadow":""});
+	});
+    
+    /* Workday */
 	$("#workday").hover(function(){
 		$("#workday .employerimage").css({"box-shadow":"0px 0px 4px 1px #005cb9"});
 	},
