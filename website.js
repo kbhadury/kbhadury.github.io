@@ -36,6 +36,14 @@ var main = function(){
 		pos -= ($(window).height() * 0.1);
 		$(document).scrollTop(pos);
 	});
+    
+    /* Fill */
+	$("#fill").hover(function(){
+		$("#fill .projectimage").css({"box-shadow":"0px 0px 4px 1px #66d9ff"});
+	},
+	function(){
+		$("#fill .projectimage").css({"box-shadow":""});
+	});
 	
 	/* Hilbert */
 	$("#hilbert").hover(function(){
