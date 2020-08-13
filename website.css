@@ -78,6 +78,10 @@ img{
 	border-bottom: 5px solid #0077b3;
 }
 
+#serenity{
+    display: none;
+}
+
 #projectbox, #employerbox{
 	width: 100%;
 	font-size: 16px;

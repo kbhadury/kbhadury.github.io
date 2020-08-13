@@ -37,6 +37,14 @@ var main = function(){
 		$(document).scrollTop(pos);
 	});
     
+    /* Seinfeld */
+    $("#seinfeld").hover(function(){
+        $("#serenity").css({"display": "inline"});
+    },
+    function(){
+        $("#serenity").css({"display": "none"});
+    });
+    
     /* Fill */
 	$("#fill").hover(function(){
 		$("#fill .projectimage").css({"box-shadow":"0px 0px 4px 1px #66d9ff"});
